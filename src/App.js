@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import UserPage from "./Pages/UserPage";
-
+import React from 'react';
 
 function App() {
 

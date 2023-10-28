@@ -21,10 +21,10 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className="links">
-                <a href="https://github.com/SravaniPutturu"><GitHubIcon /></a>
-                <a href="https://www.linkedin.com/in/sravani-putturu-36956a252/"><LinkedInIcon /></a>
-                <a href="mailto:putturusravani.123@gmail.com"><AttachEmailIcon /></a>
-                <a href="https://www.instagram.com/sravaniputturu/"><InstagramIcon /></a>
+                <a href="https://github.com/mayur5c" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+                <a href="https://www.linkedin.com/in/mayurchopra/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+                <a href="mailto:mayur5c@live.in"><AttachEmailIcon /></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><InstagramIcon /></a>
             </div>
             <div className="themeButton">
                 <Select
@@ -33,12 +33,11 @@ const Footer = () => {
                     menuPlacement='top'
                     defaultValue={{ label: theme.label, value: theme }}
                     styles={{
-                        control: (baseStyles, state) => ({
+                        control: (baseStyles) => ({
                             ...baseStyles,
                             backgroundColor: 'white'
-
                         }),
-                        menu: (baseStyles, state) => ({
+                        menu: (baseStyles) => ({
                             ...baseStyles,
                             backgroundColor: theme.background,
                             borderColor: theme.textColor
